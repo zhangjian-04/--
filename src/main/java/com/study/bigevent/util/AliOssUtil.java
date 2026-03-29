@@ -9,14 +9,14 @@ import com.aliyun.oss.model.PutObjectResult;
 
 import java.io.InputStream;
 
-public class AliOssUtil {
+公共 class AliOssUtil {
     // Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
-    private static final String ENDPOINT = "https://oss-cn-beijing.aliyuncs.com";
+    private static final String ENDPOINT = "自己的阿里云地址";
     // 阿里云访问凭证（硬编码版本）
-    private static final String ACCESS_KEY = "LTAI5tAWMoTGz8murZCbr1xs";
-    private static final String ACCESS_KEY_SECRET = "8UwzyFzsJ9dQiABj1fiPfA1YNCLuDD";
+    private static final String ACCESS_KEY = "阿里云密钥";
+    private static final String ACCESS_KEY_SECRET = "阿里云密钥";
     // 填写Bucket名称，例如examplebucket。
-    private static final String BUCKET_NAME = "big-event-zcj";
+    private static final String BUCKET_NAME = "自己起的名字";
 
     public static String uploadFile(String objectName, InputStream in) throws Exception {
 
