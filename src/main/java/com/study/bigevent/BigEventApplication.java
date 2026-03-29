@@ -1,0 +1,13 @@
+package com.study.bigevent;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BigEventApplication {
+//测试类
+    public static void main(String[] args) {
+        SpringApplication.run(BigEventApplication.class, args);
+    }
+
+}
